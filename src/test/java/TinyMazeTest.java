@@ -6,7 +6,7 @@ public class TinyMazeTest {
     @Test
     public void singleRowMaze() {
         String[][] maze = {
-                {"START", "ENDE"}
+                {"S", "E"}
         };
         TinyMaze tm = new TinyMaze(maze);
         String[][] solution = {
